@@ -32,7 +32,34 @@ The proposed pipeline consists of three main stages:
 
 ## 📂 Project Structure
 
-
+src/
+│
+├── 1Pre-processing/
+│ ├── Data_augmentation.py
+│ ├── Imageresize.m
+│ └── Smote.m
+│
+├── 2Features_selections/
+│ └── Bandelet/
+│ ├── Bandelet_program.m
+│ ├── compute_best_direction.m
+│ ├── compute_quadrant_selection.m
+│ ├── compute_quadtree.m
+│ ├── fbank_cdf97.m
+│ ├── perform_bandelet_transform.m
+│ ├── perform_quantization.m
+│ └── perform_warped_wavelet.m
+│
+└── 3Deep_classification/
+├── Program_CNN.m
+├── Program_transfer_learning.m
+├── vgg16.mlpkinstall.xml
+├── vgg19.mlpkinstall.xml
+├── resnet18.mlpkinstall.xml
+├── resnet50.mlpkinstall.xml
+├── densenet201.mlpkinstall.xml
+├── efficientnetb0.mlpkinstall.xml
+└── mobilenetv2.mlpkinstall.xml
 ---
 
 ## 🧪 Dataset
